@@ -1,0 +1,18 @@
+accuracy Viterbi :85.68%
+
+Accuracy baseline: 86.36%
+
+
+
+
+
+
+error 1: the true tag of "said" is VBD and it is predicted as CC. Because "said" in this sentence appeared before an end of sentence and after a "researchers" NNS. (lacked context around the words)
+
+error 2: the true tag of "price" is NN and it is predicted as NNS. 
+
+The reason is "price" is followed by reductions/NNS which is pluarl which explains this prediction
+
+error 3: the true tag of "cocoa" is NN and it is predicted as NP. 
+
+The reason is there was lack of context around the word.

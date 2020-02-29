@@ -1,0 +1,2 @@
+accuracy Viterbi: 88.73%
+accuracy baseline: 91.85%
